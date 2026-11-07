@@ -7,7 +7,7 @@ import model.annotation.Id;
 import model.annotation.Positive;
 import java.io.Serializable;
 import java.util.Objects;
-
+ 
 public abstract class Account implements Transactable, InterestBearing, Comparable<Account>, Serializable {
     private static final long serialVersionUID = 1L;
     private static long counter = 1;
